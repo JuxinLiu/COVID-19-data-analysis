@@ -43,4 +43,4 @@ ll_forecast <- localpoly(df)
 lc_forecast <- localpoly(df, method = "lc")
 ```
 ## Acknowledgement
-This work is funded by the [Mathematics for Public Health (MfPH)](http://www.fields.utoronto.ca/activities/public-health) network, supported by the NSERC-PHAC Emerging Infectious Disease Modeling Initiative. Speical thanks go to the former trainees Geoff Klassen, Dawo Zhang,  and Gavriel J. Arganosa.
+This work is funded by the [Mathematics for Public Health (MfPH)](http://www.fields.utoronto.ca/activities/public-health) network, and supported by the NSERC-PHAC Emerging Infectious Disease Modeling Initiative. Speical thanks go to the former trainees Geoff Klassen, Dawo Zhang,  and Gavriel J. Arganosa.
