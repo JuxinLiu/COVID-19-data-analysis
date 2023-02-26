@@ -2,7 +2,7 @@
 The aim of our work is to (1) explore the lagged dependence between the time series of case counts and the time series of death counts; and (2) utilize such a relationship for prediction. Time-varying coefficient models are considered: local polynomial regression (death_predict_Github_localpoly.R) and piece-wise linear regression (death_predict_Github_pwl.R).
 
 ## An example for using the two R functions
-<sub>
+```
 library(tidyverse)
 
 # Data in Canada
@@ -45,4 +45,4 @@ df <-  merge (death_long[,c( "deaths", "cumulative_deaths","Date" )],
 pwl_ON <- pwl_pred(df, bp_index = c(70,85,105))
 ll_forecast <- localpoly(df)
 lc_forecast <- localpoly(df, method = "lc")
-</sub>
+```
